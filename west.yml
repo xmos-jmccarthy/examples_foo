@@ -11,7 +11,7 @@ manifest:
       
   projects:
     - name: mainline
-      url: github.com/xmos-jmccarthy/test_west
+      url: git@github.com:xmos-jmccarthy/test_west.git
       import:
         file: 
             - examples/ex_0
