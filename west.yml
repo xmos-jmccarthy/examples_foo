@@ -1,0 +1,21 @@
+manifest:
+  defaults:
+    remote: upstream
+    revision: v0.1.0
+    
+  remotes:
+    - name: upstream
+      url-base: github.com/xmos-jmccarthy
+      
+  self:
+      path: examples_foo
+      
+  projects:
+    - name: mainline
+      url: github.com/xmos-jmccarthy/test_west
+      import:
+        file: 
+            - examples/ex_0
+            - modules/foo0
+            - modules/foobar0
+
