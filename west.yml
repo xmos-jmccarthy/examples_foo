@@ -13,7 +13,7 @@ manifest:
     - name: mainline
       url: git@github.com:xmos-jmccarthy/test_west.git
       import:
-        file: 
+        path-prefix: 
             - examples/ex_0
             - modules/foo0
             - modules/foobar0
